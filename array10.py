@@ -1,0 +1,6 @@
+n = int(input())
+arr = list(map(int, input().split()))
+zc = arr.count(0)
+oc= arr.count(1)
+print(f"zc = {zc}")
+print(f"oc = {oc}")
